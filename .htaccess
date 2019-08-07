@@ -1,0 +1,13 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+redirect 301 /cam-xe-o-xe-hoi-lai-suat-cuc-thap-tai-tphcm-binh-duong-dong-nai/ //cam-giay-to-cavet-xe-oto-xe-hoi/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
